@@ -1,4 +1,4 @@
-# AWS-CDK-Configuration
+# AWS-CDK-Configuration with S3Bucket
 CDK - Typescript
 
 # Welcome to your CDK TypeScript project
