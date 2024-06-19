@@ -1,16 +1,14 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
-// import * as sqs from 'aws-cdk-lib/aws-sqs';
+// import * as <change-1> from 'aws-cdk-lib/aws-<change-1>';
 
-export class AwsCdkEnvStack extends cdk.Stack {
+export class FirstAppStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
-
-    // example resource
-    // const queue = new sqs.Queue(this, 'AwsCdkEnvQueue', {
-    //   visibilityTimeout: cdk.Duration.seconds(300)
-    // });
+    new <change-1>.Bucket(this, 'change-3', {
+      versioned: true,
+      bucketName: 'change2'
+    });
   }
 }
