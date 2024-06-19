@@ -1,4 +1,4 @@
-# AWS-CDK-Configuration
+# AWS-CDK-Configuration with S3Bucket
 CDK - Typescript
 
 # Welcome to your CDK TypeScript project
@@ -16,16 +16,21 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `npx cdk diff`    compare deployed stack with current state
 * `npx cdk synth`   emits the synthesized CloudFormation template
 
+<ul>
+  <li>Install nodeJS</li>
+  <li>Install python</li>
+  <li>install git</li>
 
-Install nodeJS includin npm and choco - https://nodejs.org/en/download/prebuilt-installer
-Instal python - https://www.python.org/downloads/
-instal git - https://git-scm.com/downloads
+  <li>install AWS-CDK</li>
+  <li>configure CDK Credentials</li>
+  <li>install typescript</li>
+  <li>install bootstrap</li>
+  <li>synth CDK</li>
+  <li>finally deploye to AWS</li>
+</ul>
 
-install AWS-CDK
-configure CDK Credentials
-install typescript
-install bootstrap
 
-synth CDK
-finally deploye
+  
+</ul>
+
 
